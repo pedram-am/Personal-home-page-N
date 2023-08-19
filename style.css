@@ -1,0 +1,70 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: black;
+  background: #b9fb;
+}
+
+header {
+  margin: 5px;
+  border: 2px solid red;
+  background: pink;
+}
+
+main {
+  margin: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  background: skyblue;
+}
+
+h1 {
+  text-align: center;
+  margin: 1px;
+}
+
+.img-vid-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin: 5px;
+}
+
+footer {
+  margin: 5px;
+  border: 2px solid blue;
+  background: grey;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+.c-site-header {
+  text-align: right;
+}
+
+.texts {
+  margin: 5px;
+}
+
+#img {
+  margin: 2px;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+p {
+  font-size: 15px
+}
